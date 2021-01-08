@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Gerador</title>
+  </head>
+  <body>
+      <div class="container box">
+          <div class="row">
+              <div class="col">
+                <div class="container"> 
+                  <section id="fancyTabWidget" class="tabs t-tabs">
+                          <ul class="nav nav-tabs fancytabsTop" role="tablist">
+                          
+                                      <li class="tab fancyTabTop active">
+                                      <div class="arrow-down"><div class="arrow-down-inner"></div></div>	
+                                          <a id="tab0" href="#tabBody0" role="tab" aria-controls="tabBody0" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png" ><span class="hidden-xs">One</span></a>
+                                        <div class="whiteBlock"></div>
+                                      </li>
+                                      
+                                      <li class="tab fancyTabTop">
+                                      <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                          <a id="tab1" href="#tabBody1" role="tab" aria-controls="tabBody1" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Two</span></a>
+                                          <div class="whiteBlock"></div>
+                                      </li>
+                                      
+                                      <li class="tab fancyTabTop">
+                                      <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                          <a id="tab2" href="#tabBody2" role="tab" aria-controls="tabBody2" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Three</span></a>
+                                          <div class="whiteBlock"></div>
+                                      </li>
+                                      
+                                      <li class="tab fancyTabTop">
+                                      <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                          <a id="tab3" href="#tabBody3" role="tab" aria-controls="tabBody3" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Four</span></a>
+                                          <div class="whiteBlock"></div>
+                                      </li> 
+                                           
+                                      <li class="tab fancyTabTop">
+                                      <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                          <a id="tab4" href="#tabBody4" role="tab" aria-controls="tabBody4" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Five</span></a>
+                                          <div class="whiteBlock"></div>
+                                      </li>
+                                      
+                                      <li class="tab fancyTabTop">
+                                      <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                          <a id="tab5" href="#tabBody5" role="tab" aria-controls="tabBody5" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs"> Six </span></a>
+                                          <div class="whiteBlock"></div>
+                                      </li>
+                          </ul>
+                          <div id="myTabContent" class="tab-content fancyTabContent" aria-live="polite">
+                                      <div class="tab-pane  fade active in" id="tabBody0" role="tabpanel" aria-labelledby="tab0" aria-hidden="false" tabindex="0">
+                                          <div>
+                                            <div class="row">
+                                                
+                                                  <div class="col-md-12">
+                                                    <form>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopNameOne">Nome:</label>
+                                                          <input type="text" class="form-control" id="TopNameOne" placeholder="Nome do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopNicknameOne">Apelido:</label>
+                                                          <input type="text" class="form-control" id="TopNicknameOne" placeholder="(Deixar em branco se não houver)">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopStatusOne">Status:</label>
+                                                          <input type="text" class="form-control" id="TopStatusOne" placeholder="(Usar <br> para pular linha)">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopTraitOne">Trait:</label>
+                                                          <input type="text" class="form-control" id="TopTraitOne" placeholder="Trait do Pokémon">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopItemOne">Item:</label>
+                                                          <input type="text" class="form-control" id="TopItemOne" placeholder="Item do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopGenderOne">Sexo</label>
+                                                          <select id="TopGenderOne" class="form-control">
+                                                            <option selected>Escolha o gênero</option>
+                                                            <option>♂</option>
+                                                            <option>☼</option>
+                                                            <option>♀</option>
+                                                          </select>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopLevelOne">Level:</label>
+                                                          <input type="text" class="form-control" id="TopLevelOne" placeholder="Level do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopCurrentHPOne">HP Atual:</label>
+                                                          <input type="text" class="form-control" id="TopCurrentHPOne" placeholder="HP Atual">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopFullHPOne">HP Total:</label>
+                                                          <input type="text" class="form-control" id="TopFullHPOne" placeholder="HP Máximo">
+                                                        </div>
+                                                      </div>
+                                                      
+                                                      </form>
+                                                  </div>
+                                                  
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="tab-pane  fade" id="tabBody1" role="tabpanel" aria-labelledby="tab1" aria-hidden="true" tabindex="0">
+                                          <div class="row">
+                                                
+                                                  <div class="col-md-12">
+                                                    <form>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopNameTwo">Nome:</label>
+                                                          <input type="text" class="form-control" id="TopNameTwo" placeholder="Nome do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopNicknameTwo">Apelido:</label>
+                                                          <input type="text" class="form-control" id="TopNicknameTwo" placeholder="(Deixar em branco se não houver)">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopStatusTwo">Status:</label>
+                                                          <input type="text" class="form-control" id="TopStatusTwo" placeholder="(Usar <br> para pular linha)">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopTraitTwo">Trait:</label>
+                                                          <input type="text" class="form-control" id="TopTraitTwo" placeholder="Trait do Pokémon">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopItemTwo">Item:</label>
+                                                          <input type="text" class="form-control" id="TopItemTwo" placeholder="Item do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopGenderTwo">Sexo</label>
+                                                          <select id="TopGenderTwo" class="form-control">
+                                                            <option selected>Escolha o gênero</option>
+                                                            <option>♂</option>
+                                                            <option>☼</option>
+                                                            <option>♀</option>
+                                                          </select>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopLevelTwo">Level:</label>
+                                                          <input type="text" class="form-control" id="TopLevelTwo" placeholder="Level do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopCurrentHPTwo">HP Atual:</label>
+                                                          <input type="text" class="form-control" id="TopCurrentHPTwo" placeholder="HP Atual">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopFullHPTwo">HP Total:</label>
+                                                          <input type="text" class="form-control" id="TopFullHPTwo" placeholder="HP Máximo">
+                                                        </div>
+                                                      </div>
+                                                      
+                                                      </form>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                      <div class="tab-pane  fade" id="tabBody2" role="tabpanel" aria-labelledby="tab2" aria-hidden="true" tabindex="0">
+                                          <div class="row">
+                                                  <div class="col-md-12">
+                                                    <form>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopNameThree">Nome:</label>
+                                                          <input type="text" class="form-control" id="TopNameThree" placeholder="Nome do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopNicknameThree">Apelido:</label>
+                                                          <input type="text" class="form-control" id="TopNicknameThree" placeholder="(Deixar em branco se não houver)">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopStatusThree">Status:</label>
+                                                          <input type="text" class="form-control" id="TopStatusThree" placeholder="(Usar <br> para pular linha)">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopTraitThree">Trait:</label>
+                                                          <input type="text" class="form-control" id="TopTraitThree" placeholder="Trait do Pokémon">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopItemThree">Item:</label>
+                                                          <input type="text" class="form-control" id="TopItemThree" placeholder="Item do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                          <label for="TopGenderThree">Sexo</label>
+                                                          <select id="TopGenderThree" class="form-control">
+                                                            <option selected>Escolha o gênero</option>
+                                                            <option>♂</option>
+                                                            <option>☼</option>
+                                                            <option>♀</option>
+                                                          </select>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-row">
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopLevelThree">Level:</label>
+                                                          <input type="text" class="form-control" id="TopLevelThree" placeholder="Level do Pokémon">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopCurrentHPThree">HP Atual:</label>
+                                                          <input type="text" class="form-control" id="TopCurrentHPThree" placeholder="HP Atual">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                          <label for="TopFullHPThree">HP Total:</label>
+                                                          <input type="text" class="form-control" id="TopFullHPThree" placeholder="HP Máximo">
+                                                        </div>
+                                                      </div>
+                                                      
+                                                      </form>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                      <div class="tab-pane  fade" id="tabBody3" role="tabpanel" aria-labelledby="tab3" aria-hidden="true" tabindex="0">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                            <form>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopNameFour">Nome:</label>
+                                                  <input type="text" class="form-control" id="TopNameFour" placeholder="Nome do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopNicknameFour">Apelido:</label>
+                                                  <input type="text" class="form-control" id="TopNicknameFour" placeholder="(Deixar em branco se não houver)">
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopStatusFour">Status:</label>
+                                                  <input type="text" class="form-control" id="TopStatusFour" placeholder="(Usar <br> para pular linha)">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopTraitFour">Trait:</label>
+                                                  <input type="text" class="form-control" id="TopTraitFour" placeholder="Trait do Pokémon">
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopItemFour">Item:</label>
+                                                  <input type="text" class="form-control" id="TopItemFour" placeholder="Item do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopGenderFour">Sexo</label>
+                                                  <select id="TopGenderFour" class="form-control">
+                                                    <option selected>Escolha o gênero</option>
+                                                    <option>♂</option>
+                                                    <option>☼</option>
+                                                    <option>♀</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopLevelFour">Level:</label>
+                                                  <input type="text" class="form-control" id="TopLevelFour" placeholder="Level do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopCurrentHPFour">HP Atual:</label>
+                                                  <input type="text" class="form-control" id="TopCurrentHPFour" placeholder="HP Atual">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopFullHPFour">HP Total:</label>
+                                                  <input type="text" class="form-control" id="TopFullHPFour" placeholder="HP Máximo">
+                                                </div>
+                                              </div>
+                                             
+                                              </form>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                      <div class="tab-pane  fade" id="tabBody4" role="tabpanel" aria-labelledby="tab4" aria-hidden="true" tabindex="0">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                            <form>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopNameFive">Nome:</label>
+                                                  <input type="text" class="form-control" id="TopNameFive" placeholder="Nome do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopNicknameFive">Apelido:</label>
+                                                  <input type="text" class="form-control" id="TopNicknameFive" placeholder="(Deixar em branco se não houver)">
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopStatusFive">Status:</label>
+                                                  <input type="text" class="form-control" id="TopStatusFive" placeholder="(Usar <br> para pular linha)">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopTraitFive">Trait:</label>
+                                                  <input type="text" class="form-control" id="TopTraitFive" placeholder="Trait do Pokémon">
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopItemFive">Item:</label>
+                                                  <input type="text" class="form-control" id="TopItemFive" placeholder="Item do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopGenderFive">Sexo</label>
+                                                  <select id="TopGenderFive" class="form-control">
+                                                    <option selected>Escolha o gênero</option>
+                                                    <option>♂</option>
+                                                    <option>☼</option>
+                                                    <option>♀</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopLevelFive">Level:</label>
+                                                  <input type="text" class="form-control" id="TopLevelFive" placeholder="Level do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopCurrentHPFive">HP Atual:</label>
+                                                  <input type="text" class="form-control" id="TopCurrentHPFive" placeholder="HP Atual">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopFullHPFive">HP Total:</label>
+                                                  <input type="text" class="form-control" id="TopFullHPFive" placeholder="HP Máximo">
+                                                </div>
+                                              </div>
+                                             
+                                              </form>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                      <div class="tab-pane  fade" id="tabBody5" role="tabpanel" aria-labelledby="tab5" aria-hidden="true" tabindex="0">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                            <form>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopNameSix">Nome:</label>
+                                                  <input type="text" class="form-control" id="TopNameSix" placeholder="Nome do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopNicknameSix">Apelido:</label>
+                                                  <input type="text" class="form-control" id="TopNicknameSix" placeholder="(Deixar em branco se não houver)">
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopStatusSix">Status:</label>
+                                                  <input type="text" class="form-control" id="TopStatusSix" placeholder="(Usar <br> para pular linha)">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopTraitSix">Trait:</label>
+                                                  <input type="text" class="form-control" id="TopTraitSix" placeholder="Trait do Pokémon">
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopItemSix">Item:</label>
+                                                  <input type="text" class="form-control" id="TopItemSix" placeholder="Item do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                  <label for="TopGenderSix">Sexo</label>
+                                                  <select id="TopGenderSix" class="form-control">
+                                                    <option selected>Escolha o gênero</option>
+                                                    <option>♂</option>
+                                                    <option>☼</option>
+                                                    <option>♀</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopLevelSix">Level:</label>
+                                                  <input type="text" class="form-control" id="TopLevelSix" placeholder="Level do Pokémon">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopCurrentHPSix">HP Atual:</label>
+                                                  <input type="text" class="form-control" id="TopCurrentHPSix" placeholder="HP Atual">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="TopFullHPSix">HP Total:</label>
+                                                  <input type="text" class="form-control" id="TopFullHPSix" placeholder="HP Máximo">
+                                                </div>
+                                              </div>
+                                              
+                                              </form>
+                                              
+                                                  </div>
+                                              </div>
+                                              
+                                      </div>
+                                      
+                                      
+                          </div>
+                  
+                      </section>
+                    
+                  </div>
+              </div>
+              <div class="col">
+                <div class="container"> 
+                  <section id="fancyTabWidget" class="tabs t-tabs">
+                    <ul class="nav nav-tabs fancytabs" role="tablist">
+                    
+                                <li class="tab fancyTab active">
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>	
+                                    <a id="tab6" href="#tabBody6" role="tab" aria-controls="tabBody6" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">One</span></a>
+                                  <div class="whiteBlock"></div>
+                                </li>
+                                
+                                <li class="tab fancyTab">
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                    <a id="tab7" href="#tabBody7" role="tab" aria-controls="tabBody7" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Two</span></a>
+                                    <div class="whiteBlock"></div>
+                                </li>
+                                
+                                <li class="tab fancyTab">
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                    <a id="tab8" href="#tabBody8" role="tab" aria-controls="tabBody8" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Three</span></a>
+                                    <div class="whiteBlock"></div>
+                                </li>
+                                
+                                <li class="tab fancyTab">
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                    <a id="tab9" href="#tabBody9" role="tab" aria-controls="tabBody9" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Four</span></a>
+                                    <div class="whiteBlock"></div>
+                                </li> 
+                                     
+                                <li class="tab fancyTab">
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                    <a id="tab10" href="#tabBody10" role="tab" aria-controls="tabBody10" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Five</span></a>
+                                    <div class="whiteBlock"></div>
+                                </li>
+                                
+                                <li class="tab fancyTab">
+                                <div class="arrow-down"><div class="arrow-down-inner"></div></div>
+                                    <a id="tab11" href="#tabBody11" role="tab" aria-controls="tabBody11" aria-selected="true" data-toggle="tab" tabindex="0"><img src="https://i.imgur.com/4aR0FaQ.png"><span class="hidden-xs">Six</span></a>
+                                    <div class="whiteBlock"></div>
+                                </li>
+                    </ul>
+                    <div id="myTabContent" class="tab-content fancyTabContent" aria-live="polite">
+                                <div class="tab-pane  fade active in" id="tabBody6" role="tabpanel" aria-labelledby="tab6" aria-hidden="false" tabindex="0">
+                                    <div>
+                                      <div class="row">
+                                          
+                                            <div class="col-md-12">
+                                              <form>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotNameOne">Nome:</label>
+                                                    <input type="text" class="form-control" id="BotNameOne" placeholder="Nome do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotNicknameOne">Apelido:</label>
+                                                    <input type="text" class="form-control" id="BotNicknameOne" placeholder="(Deixar em branco se não houver)">
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotStatusOne">Status:</label>
+                                                    <input type="text" class="form-control" id="BotStatusOne" placeholder="(Usar <br> para pular linha)">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotTraitOne">Trait:</label>
+                                                    <input type="text" class="form-control" id="BotTraitOne" placeholder="Trait do Pokémon">
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotItemOne">Item:</label>
+                                                    <input type="text" class="form-control" id="BotItemOne" placeholder="Item do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotGenderOne">Sexo</label>
+                                                    <select id="BotGenderOne" class="form-control">
+                                                      <option selected>Escolha o gênero</option>
+                                                      <option>♂</option>
+                                                      <option>☼</option>
+                                                      <option>♀</option>
+                                                    </select>
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotLevelOne">Level:</label>
+                                                    <input type="text" class="form-control" id="BotLevelOne" placeholder="Level do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotCurrentHPOne">HP Atual:</label>
+                                                    <input type="text" class="form-control" id="BotCurrentHPOne" placeholder="HP Atual">
+                                                  </div>
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotFullHPOne">HP Total:</label>
+                                                    <input type="text" class="form-control" id="BotFullHPOne" placeholder="HP Máximo">
+                                                  </div>
+                                                </div>
+                                                
+                                                </form>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane  fade" id="tabBody7" role="tabpanel" aria-labelledby="tab7" aria-hidden="true" tabindex="0">
+                                    <div class="row">
+                                          
+                                            <div class="col-md-12">
+                                              <form>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotNameTwo">Nome:</label>
+                                                    <input type="text" class="form-control" id="BotNameTwo" placeholder="Nome do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotNicknameTwo">Apelido:</label>
+                                                    <input type="text" class="form-control" id="BotNicknameTwo" placeholder="(Deixar em branco se não houver)">
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotStatusTwo">Status:</label>
+                                                    <input type="text" class="form-control" id="BotStatusTwo" placeholder="(Usar <br> para pular linha)">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotTraitTwo">Trait:</label>
+                                                    <input type="text" class="form-control" id="BotTraitTwo" placeholder="Trait do Pokémon">
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotItemTwo">Item:</label>
+                                                    <input type="text" class="form-control" id="BotItemTwo" placeholder="Item do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotGenderTwo">Sexo</label>
+                                                    <select id="BotGenderTwo" class="form-control">
+                                                      <option selected>Escolha o gênero</option>
+                                                      <option>♂</option>
+                                                      <option>☼</option>
+                                                      <option>♀</option>
+                                                    </select>
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotLevelTwo">Level:</label>
+                                                    <input type="text" class="form-control" id="BotLevelTwo" placeholder="Level do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotCurrentHPTwo">HP Atual:</label>
+                                                    <input type="text" class="form-control" id="BotCurrentHPTwo" placeholder="HP Atual">
+                                                  </div>
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotFullHPTwo">HP Total:</label>
+                                                    <input type="text" class="form-control" id="BotFullHPTwo" placeholder="HP Máximo">
+                                                  </div>
+                                                </div>
+                                                
+                                                </form>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="tab-pane  fade" id="tabBody8" role="tabpanel" aria-labelledby="tab8" aria-hidden="true" tabindex="0">
+                                    <div class="row">
+                                            <div class="col-md-12">
+                                              <form>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotNameThree">Nome:</label>
+                                                    <input type="text" class="form-control" id="BotNameThree" placeholder="Nome do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotNicknameThree">Apelido:</label>
+                                                    <input type="text" class="form-control" id="BotNicknameThree" placeholder="(Deixar em branco se não houver)">
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotStatusThree">Status:</label>
+                                                    <input type="text" class="form-control" id="BotStatusThree" placeholder="(Usar <br> para pular linha)">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotTraitThree">Trait:</label>
+                                                    <input type="text" class="form-control" id="BotTraitThree" placeholder="Trait do Pokémon">
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotItemThree">Item:</label>
+                                                    <input type="text" class="form-control" id="BotItemThree" placeholder="Item do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-6">
+                                                    <label for="BotGenderThree">Sexo</label>
+                                                    <select id="BotGenderThree" class="form-control">
+                                                      <option selected>Escolha o gênero</option>
+                                                      <option>♂</option>
+                                                      <option>☼</option>
+                                                      <option>♀</option>
+                                                    </select>
+                                                  </div>
+                                                </div>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotLevelThree">Level:</label>
+                                                    <input type="text" class="form-control" id="BotLevelThree" placeholder="Level do Pokémon">
+                                                  </div>
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotCurrentHPThree">HP Atual:</label>
+                                                    <input type="text" class="form-control" id="BotCurrentHPThree" placeholder="HP Atual">
+                                                  </div>
+                                                  <div class="form-group col-md-4">
+                                                    <label for="BotFullHPThree">HP Total:</label>
+                                                    <input type="text" class="form-control" id="BotFullHPThree" placeholder="HP Máximo">
+                                                  </div>
+                                                </div>
+                                                
+                                                </form>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="tab-pane  fade" id="tabBody9" role="tabpanel" aria-labelledby="tab9" aria-hidden="true" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                      <form>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotNameFour">Nome:</label>
+                                            <input type="text" class="form-control" id="BotNameFour" placeholder="Nome do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotNicknameFour">Apelido:</label>
+                                            <input type="text" class="form-control" id="BotNicknameFour" placeholder="(Deixar em branco se não houver)">
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotStatusFour">Status:</label>
+                                            <input type="text" class="form-control" id="BotStatusFour" placeholder="(Usar <br> para pular linha)">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotTraitFour">Trait:</label>
+                                            <input type="text" class="form-control" id="BotTraitFour" placeholder="Trait do Pokémon">
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotItemFour">Item:</label>
+                                            <input type="text" class="form-control" id="BotItemFour" placeholder="Item do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotGenderFour">Sexo</label>
+                                            <select id="BotGenderFour" class="form-control">
+                                              <option selected>Escolha o gênero</option>
+                                              <option>♂</option>
+                                              <option>☼</option>
+                                              <option>♀</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-4">
+                                            <label for="BotLevelFour">Level:</label>
+                                            <input type="text" class="form-control" id="BotLevelFour" placeholder="Level do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-4">
+                                            <label for="BotCurrentHPFour">HP Atual:</label>
+                                            <input type="text" class="form-control" id="BotCurrentHPFour" placeholder="HP Atual">
+                                          </div>
+                                          <div class="form-group col-md-4">
+                                            <label for="BotFullHPFour">HP Total:</label>
+                                            <input type="text" class="form-control" id="BotFullHPFour" placeholder="HP Máximo">
+                                          </div>
+                                        </div>
+                                        
+                                        </form>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="tab-pane  fade" id="tabBody10" role="tabpanel" aria-labelledby="tab10" aria-hidden="true" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                      <form>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotNameFive">Nome:</label>
+                                            <input type="text" class="form-control" id="BotNameFive" placeholder="Nome do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotNicknameFive">Apelido:</label>
+                                            <input type="text" class="form-control" id="BotNicknameFive" placeholder="(Deixar em branco se não houver)">
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotStatusFive">Status:</label>
+                                            <input type="text" class="form-control" id="BotStatusFive" placeholder="(Usar <br> para pular linha)">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotTraitFive">Trait:</label>
+                                            <input type="text" class="form-control" id="BotTraitFive" placeholder="Trait do Pokémon">
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotItemFive">Item:</label>
+                                            <input type="text" class="form-control" id="BotItemFive" placeholder="Item do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotGenderFive">Sexo</label>
+                                            <select id="BotGenderFive" class="form-control">
+                                              <option selected>Escolha o gênero</option>
+                                              <option>♂</option>
+                                              <option>☼</option>
+                                              <option>♀</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-4">
+                                            <label for="BotLevelFive">Level:</label>
+                                            <input type="text" class="form-control" id="BotLevelFive" placeholder="Level do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-4">
+                                            <label for="BotCurrentHPFive">HP Atual:</label>
+                                            <input type="text" class="form-control" id="BotCurrentHPFive" placeholder="HP Atual">
+                                          </div>
+                                          <div class="form-group col-md-4">
+                                            <label for="BotFullHPFive">HP Total:</label>
+                                            <input type="text" class="form-control" id="BotFullHPFive" placeholder="HP Máximo">
+                                          </div>
+                                        </div>
+                                        
+                                        </form>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="tab-pane  fade" id="tabBody11" role="tabpanel" aria-labelledby="tab11" aria-hidden="true" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                      <form>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotNameSix">Nome:</label>
+                                            <input type="text" class="form-control" id="BotNameSix" placeholder="Nome do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotNicknameSix">Apelido:</label>
+                                            <input type="text" class="form-control" id="BotNicknameSix" placeholder="(Deixar em branco se não houver)">
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotStatusSix">Status:</label>
+                                            <input type="text" class="form-control" id="BotStatusSix" placeholder="(Usar <br> para pular linha)">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotTraitSix">Trait:</label>
+                                            <input type="text" class="form-control" id="BotTraitSix" placeholder="Trait do Pokémon">
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-6">
+                                            <label for="BotItemSix">Item:</label>
+                                            <input type="text" class="form-control" id="BotItemSix" placeholder="Item do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="BotGenderSix">Sexo</label>
+                                            <select id="BotGenderSix" class="form-control">
+                                              <option selected>Escolha o gênero</option>
+                                              <option>♂</option>
+                                              <option>☼</option>
+                                              <option>♀</option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-4">
+                                            <label for="BotLevelSix">Level:</label>
+                                            <input type="text" class="form-control" id="BotLevelSix" placeholder="Level do Pokémon">
+                                          </div>
+                                          <div class="form-group col-md-4">
+                                            <label for="BotCurrentHPSix">HP Atual:</label>
+                                            <input type="text" class="form-control" id="BotCurrentHPSix" placeholder="HP Atual">
+                                          </div>
+                                          <div class="form-group col-md-4">
+                                            <label for="BotFullHPSix">HP Total:</label>
+                                            <input type="text" class="form-control" id="BotFullHPSix" placeholder="HP Máximo">
+                                          </div>
+                                        </div>
+                                        
+                                        </form>
+                                            </div>
+                                        </div>
+                                </div>
+                    </div>
+                  
+                  </section>
+                  
+                  </div>
+                  
+              </div>
+              
+            </div>
+            <form>
+            <div class="container">
+              
+                  <div class="form-row">
+              <input type="submit"  id ="enviar" value="Enviar">
+              </div>
+              <div class="form-row">
+              <textarea class="message" name="feedback" id="feedback"></textarea>
+            </div>
+            </form>
+              
+              </div>
+            
+            </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+    <script src="js/index.js"></script>
+    <script src="js/gerador.js"></script>
+
+  </body>
+</html>

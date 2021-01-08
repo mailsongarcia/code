@@ -1,0 +1,498 @@
+.box {
+  background-color: #fff;
+  margin-top: 50px;
+
+  border-right: solid 25px #00cba8;
+  border-left: solid 25px #00cba8;
+  outline: solid 2px #214261;
+  padding: 10px;
+  
+ 
+ 
+  
+}
+
+.teste {
+  border: solid 3px #214261;
+}
+
+
+body {
+  background-image: url("fundo.png");
+}
+
+
+.container .containerTabs {
+  margin-top:15px;
+  margin-bottom:30px;
+  width: 600px;
+  
+  
+  
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro';
+  font-weight:700;
+}
+
+.fancyTab {
+    text-align: center;
+  padding:15px 0;
+  background-color: #c7ddeb;
+    box-shadow: 0 0 0 1px #f5fafc;
+    top:15px;	
+  transition: top .2s;
+  opacity: 0.4;
+  
+  
+}
+
+.fancyTab.active {
+  top:0;
+  transition:top .2s;
+  opacity: 1.0;
+}
+
+.whiteBlock {
+  display:none;
+}
+
+.fancyTab.active .whiteBlock {
+  display:block;
+  height:2px;
+  bottom:-2px;
+  background-color:#f04f4c;
+  width:99%;
+  position:absolute;
+  z-index:1;
+}
+
+.fancyTab a {
+    font-family: 'Source Sans Pro';
+    font-size:1.65em;
+    font-weight:300;
+  transition:.2s;
+  color:#000;
+}
+
+.fancyTab .hidden-xs {
+  white-space:nowrap;
+}
+
+.fancyTabs {
+    border-bottom:2px solid #fdc345;
+  margin: 15px 0 0;
+}
+
+li.fancyTab a {
+  padding-top: 15px;
+  top:-15px;
+  padding-bottom:0;
+}
+
+li.fancyTab.active a {
+  padding-top: inherit;
+}
+/* icones não ativados */
+.fancyTab .fa {
+  font-size: 40px;
+    width:100%;
+    padding: 15px 0 5px;
+  color:#848395;
+}
+/* icones  ativados */
+.fancyTab.active .fa {
+  color: #000;
+}
+
+.fancyTab a:focus {
+    outline:none;
+}
+/* Box de conteúdo */
+.fancyTabContent {
+  border-color: transparent;
+  box-shadow: 0 -2px 0 -1px #fff, 0 0 0 1px #ddd;
+  padding: 30px 15px 15px;
+  position:relative;
+  background-color:#f5fafc;
+}
+
+.nav-tabs > li.fancyTab.active > a, 
+.nav-tabs > li.fancyTab.active > a:focus,
+.nav-tabs > li.fancyTab.active > a:hover {
+    border-width:0;
+}
+
+.nav-tabs > li.fancyTab:hover {
+    background-color:#f9f9f9;
+    box-shadow: 0 0 0 1px #ddd;
+}
+
+.nav-tabs > li.fancyTab.active:hover {
+  background-color:#f5fafc;
+  box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;
+}
+
+.nav-tabs > li.fancyTab:hover a {
+    border-color:transparent;
+}
+
+.nav.nav-tabs .fancyTab a[data-toggle="tab"] {
+  background-color:transparent;
+  border-bottom:0;
+}
+
+.nav-tabs > li.fancyTab:hover a {
+  border-right: 1px solid transparent;
+}
+
+.nav-tabs > li.fancyTab > a {
+    margin-right:0;
+    border-top:0;
+  padding-bottom: 30px;
+  margin-bottom: -30px;
+}
+
+.nav-tabs > li.fancyTab {
+    margin-right:0;
+    margin-bottom:0;
+}
+
+.nav-tabs > li.fancyTab:last-child a {
+  border-right: 1px solid transparent;
+}
+
+.nav-tabs > li.fancyTab.active:last-child {
+  border-right: 0px solid #ddd;
+    box-shadow: 0px 2px 0 0px #fff, 0px 0px 0 1px #ddd;
+}
+
+.fancyTab:last-child {
+  box-shadow: 0 0 0 1px #ddd;
+}
+
+.tabs .nav-tabs li.fancyTab.active a {
+    box-shadow:none;
+  top:0;
+}
+
+
+.fancyTab.active {
+  background: #7eb9c7;
+    box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;
+  padding-bottom:30px;
+  
+}
+
+.arrow-down {
+    display:none;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 22px solid #ddd;
+  position: absolute;
+  top: -1px;
+  left: calc(50% - 20px);
+}
+
+.arrow-down-inner {
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 12px solid #fff;
+  position: absolute;
+  top: -22px;
+  left: -18px;
+}
+
+.fancyTab.active .arrow-down {
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  
+  .fancyTab .fa {
+      font-size: 36px;
+  }
+  
+  .fancyTab .hidden-xs {
+    font-size:22px;
+    }
+        
+}
+    
+    
+@media (max-width: 992px) {
+    
+  .fancyTab .fa {
+      font-size: 33px;
+  }
+    
+  .fancyTab .hidden-xs {
+      font-size:18px;
+    font-weight:normal;
+  }
+        
+}
+    
+    
+@media (max-width: 768px) {
+    
+  .fancyTab > a {
+    font-size:18px;
+  }
+    
+  .nav > li.fancyTab > a {
+    padding:15px 0;
+    margin-bottom:inherit;
+  }
+    
+  .fancyTab .fa {
+    font-size:30px;
+  }
+    
+  .nav-tabs > li.fancyTab > a {
+    border-right:1px solid transparent;
+    padding-bottom:0;
+  }
+    
+  .fancyTab.active .fa {
+    color: #f0f0f0;
+    }
+        
+}
+
+
+
+
+
+
+.fancyTabTop {
+  text-align: center;
+padding:15px 0;
+background-color: #c7ddeb;
+  box-shadow: 0 0 0 1px #f5fafc;
+  top:15px;	
+transition: top .2s;
+opacity: 0.4;
+
+}
+
+.fancyTabTop.active {
+top:0;
+transition:top .2s;
+opacity: 1.0;
+}
+
+
+
+.fancyTabTop.active .whiteBlock {
+display:block;
+height:2px;
+bottom:-2px;
+background-color:#f04f4c;
+width:99%;
+position:absolute;
+z-index:1;
+}
+
+.fancyTabTop a {
+  font-family: 'Source Sans Pro';
+  font-size:1.65em;
+  font-weight:300;
+transition:.2s;
+color:#000;
+}
+
+.fancyTabTop .hidden-xs {
+white-space:nowrap;
+}
+
+.fancyTabTops {
+  border-bottom:2px solid #fdc345;
+margin: 15px 0 0;
+}
+
+li.fancyTabTop a {
+padding-top: 15px;
+top:-15px;
+padding-bottom:0;
+}
+
+li.fancyTabTop.active a {
+padding-top: inherit;
+}
+/* icones não ativados */
+.fancyTabTop .fa {
+font-size: 40px;
+  width:100%;
+  padding: 15px 0 5px;
+color:#848395;
+}
+/* icones  ativados */
+.fancyTabTop.active .fa {
+color: #000;
+}
+
+.fancyTabTop a:focus {
+  outline:none;
+}
+
+.nav-tabs > li.fancyTabTop.active > a, 
+.nav-tabs > li.fancyTabTop.active > a:focus,
+.nav-tabs > li.fancyTabTop.active > a:hover {
+  border-width:0;
+}
+
+.nav-tabs > li.fancyTabTop:hover {
+  background-color:#f9f9f9;
+  box-shadow: 0 0 0 1px #ddd;
+}
+
+.nav-tabs > li.fancyTabTop.active:hover {
+background-color:#f5fafc;
+box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;
+}
+
+.nav-tabs > li.fancyTabTop:hover a {
+  border-color:transparent;
+}
+
+.nav.nav-tabs .fancyTabTop a[data-toggle="tab"] {
+background-color:transparent;
+border-bottom:0;
+}
+
+.nav-tabs > li.fancyTabTop:hover a {
+border-right: 1px solid transparent;
+}
+
+.nav-tabs > li.fancyTabTop > a {
+  margin-right:0;
+  border-top:0;
+padding-bottom: 30px;
+margin-bottom: -30px;
+}
+
+.nav-tabs > li.fancyTabTop {
+  margin-right:0;
+  margin-bottom:0;
+}
+
+.nav-tabs > li.fancyTabTop:last-child a {
+border-right: 1px solid transparent;
+}
+
+.nav-tabs > li.fancyTabTop.active:last-child {
+border-right: 0px solid #ddd;
+  box-shadow: 0px 2px 0 0px #fff, 0px 0px 0 1px #ddd;
+}
+
+.fancyTabTop:last-child {
+box-shadow: 0 0 0 1px #ddd;
+}
+
+.tabs .nav-tabs li.fancyTabTop.active a {
+  box-shadow:none;
+top:0;
+}
+
+
+.fancyTabTop.active {
+background: #7eb9c7;
+  box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;
+padding-bottom:30px;
+
+}
+
+
+
+
+.fancyTabTop.active .arrow-down {
+display: block;
+}
+
+@media (max-width: 1200px) {
+
+.fancyTabTop .fa {
+    font-size: 36px;
+}
+
+.fancyTabTop .hidden-xs {
+  font-size:22px;
+  }
+      
+}
+  
+  
+@media (max-width: 992px) {
+  
+.fancyTabTop .fa {
+    font-size: 33px;
+}
+  
+.fancyTabTop .hidden-xs {
+    font-size:18px;
+  font-weight:normal;
+}
+      
+}
+  
+  
+@media (max-width: 768px) {
+  
+.fancyTabTop > a {
+  font-size:18px;
+}
+  
+.nav > li.fancyTabTop > a {
+  padding:15px 0;
+  margin-bottom:inherit;
+}
+  
+.fancyTabTop .fa {
+  font-size:30px;
+}
+  
+.nav-tabs > li.fancyTabTop > a {
+  border-right:1px solid transparent;
+  padding-bottom:0;
+}
+  
+.fancyTabTop.active .fa {
+  color: #f0f0f0;
+  }
+      
+}
+
+
+
+
+
+div.box .message{
+  
+  padding:7px 7px;
+  width: 100%;
+  background:#00;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+  overflow:hidden;
+  height:150px;
+  overflow: auto;
+  resize:none;
+  
+}
+
+#enviar  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ 
